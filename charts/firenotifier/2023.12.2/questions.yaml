@@ -26,21 +26,6 @@ portals:
     ports:
       - "$kubernetes-resource_configmap_portal_port"
 questions:
-  - variable: portal
-    group: "Container Image"
-    label: "Configure Portal Button"
-    schema:
-      type: dict
-      hidden: true
-      attrs:
-        - variable: enabled
-          label: "Enable"
-          description: "enable the portal button"
-          schema:
-            hidden: true
-            editable: false
-            type: boolean
-            default: true
   # Update Policy
   - variable: strategyType
     group: "Container Image"
@@ -54,7 +39,7 @@ questions:
         - value: "Recreate"
           description: "Kill existing pods before creating new ones"
 
-  # Configure Enviroment Variables
+  # Configure Environment Variables
   - variable: environmentVariables
     label: "Image environment"
     group: "Configuration"
@@ -132,7 +117,7 @@ questions:
                       label: "Container port"
                       schema:
                         type: int
-                        default: 8384
+                        default: 8008
                         editable: false
                         hidden: true
                     - variable: targetport
@@ -185,7 +170,7 @@ questions:
                 description: "Path inside the container the storage is mounted"
                 schema:
                   type: string
-                  default: "/var/syncthing"
+                  default: "/var/xxxx"
                   hidden: true
               - variable: emptyDir
                 label: "Mount a ramdisk instead of actual storage"
