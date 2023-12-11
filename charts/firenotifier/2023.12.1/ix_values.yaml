@@ -1,4 +1,4 @@
 image:
   pullPolicy: IfNotPresent
-  repository: ghcr.io/as19git67/firenotifier:main
-  tag: 2023.12.1
+  repository: ghcr.io/as19git67/firenotifier
+  tag: main
