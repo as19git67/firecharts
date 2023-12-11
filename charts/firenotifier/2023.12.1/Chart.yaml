@@ -1,19 +1,15 @@
 name: firenotifier
 description: Notification service
 type: application
-version: 2023.12.0
+version: 2023.12.1
 apiVersion: v2
-appVersion: 2023.12.0
+appVersion: 2023.12.1
 kubeVersion: ">=1.16.0-0"
 maintainers:
   - name: as19git67
     url: https://www.schegg.de/
     email: schliesst06.erweitern@icloud.com
-dependencies:
-  - name: common
-    repository: https://truecharts.org/
-    version: 3.5.5
-    # condition:
+dependencies: []
 home: https://www.schegg.de/
 icon: https://raw.githubusercontent.com/as19git67/firenotifier/main/fire-alarm.png
 keywords:
