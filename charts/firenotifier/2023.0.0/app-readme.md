@@ -1,1 +1,0 @@
-Notifier App for TrueNAS SCALE
