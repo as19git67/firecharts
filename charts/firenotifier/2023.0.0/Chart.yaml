@@ -16,5 +16,10 @@ dependencies:
     # condition:
 home: https://www.schegg.de/
 icon: https://raw.githubusercontent.com/as19git67/firenotifier/main/fire-alarm.png
-keywords: []
-sources: []
+keywords:
+  - firefighter
+  - notification
+  - alarm
+  - feuerwehr
+sources:
+  - https://github.com/as19git67/firecharts
