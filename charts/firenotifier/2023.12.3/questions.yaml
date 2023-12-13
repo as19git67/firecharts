@@ -2,13 +2,6 @@ groups:
   - name: "Container Images"
     description: "Image to be used for container"
 questions:
-  - variable: replicas
-    label: Replicas (Advanced)
-    description: Set the number of Replicas
-    schema:
-      type: int
-      show_if: [["type", "!=", "DaemonSet"]]
-      default: 1
   - variable: image
     description: "Docker Image Details"
     group: "Container Images"
